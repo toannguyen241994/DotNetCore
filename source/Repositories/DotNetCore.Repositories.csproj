@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>DotNetCore.Repositories</AssemblyName>
+        <Description>The package provides interfaces for generic repositories.</Description>
+        <PackageId>DotNetCore.Repositories</PackageId>
+        <PackageProjectUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Repositories</PackageProjectUrl>
+        <PackageTags>Repository, GenericRepository, RelationalRepository, GenericRelationalRepository</PackageTags>
+        <RepositoryUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Repositories</RepositoryUrl>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Title>DotNetCore.Repositories</Title>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    </ItemGroup>
+</Project>
